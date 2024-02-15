@@ -40,7 +40,7 @@ Cherry🦋 Bot Multi Device is a automated whatsapp bot created by <a href="http
 
 ## ```Donate Me```
 
-- [`FamPay`](https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg)
+- [`FamPay`](https://photos.app.goo.gl/r884Tmfs8dUuL1pU8.jpg)
 
 <p align="left">
 Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay.

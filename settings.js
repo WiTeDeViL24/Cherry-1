@@ -31,14 +31,14 @@ global.location = "India, US" //ur location
 //new
 global.botname = "Cherry🦋"
 global.ownernumber = '919137205974'
-global.ownername = '🦄드림 가이 Xeon'
+global.ownername = 'Cherry'
 global.ownerNumber = ["919137205974@s.whatsapp.net"]
 global.ownerweb = "https://youtube.com/@DGXeon"
 global.websitex = "https://youtu.be/L_SIk59QeAU"
-global.wagc = "https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH"
+
 global.themeemoji = '🪀'
 global.wm = "Xeon Bot Inc."
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
+global.botscript = 'https://github.com/DGXeon/WiTeDeViL24' //script link
 global.packname = "Sticker By"
 global.author = "🦄드림 가이 Xeon\n\n"
 global.creator = "919137205974@s.whatsapp.net"

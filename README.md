@@ -2,7 +2,7 @@
 
 <h1 align="center">ꪶ𝗖𝗵𝗲rry🦋ꫂ<br></h1>
 <p align="center">
-<imgsrc="https://photos.app.goo.gl/x1V1SNVPtW6Xxu8ZA" width="540" height="280" />
+<imgsrc="https://photos.app.goo.gl/x1V1SNVPtW6Xxu8ZA.jpg" width="540" height="280" />
 </p>
 
 <p align="center">

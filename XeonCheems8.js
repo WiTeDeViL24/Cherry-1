@@ -493,7 +493,7 @@ XeonBotInc.sendMessage(m.chat,
 { text: teks,
 contextInfo:{
 mentionedJid:[sender],
-forwardingScore: 9999999,
+forwardingScore: 0,
 isForwarded: true, 
 "externalAdReply": {
 "showAdAttribution": true,
@@ -511,7 +511,7 @@ sendXeonBotIncMessage(from, {
 text: teks,
 mentions:[sender],
 contextInfo:{
-forwardingScore: 9999999,
+forwardingScore: 0,
 isForwarded: true, 
 mentionedJid:[sender],
 "externalAdReply": {

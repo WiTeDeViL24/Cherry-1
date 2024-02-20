@@ -174,9 +174,9 @@ try {
         }
                    
         //TIME
-        const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-        const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-        const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+        const xtime = moment.tz('Globle/India').format('HH:mm:ss')
+        const xdate = moment.tz('Global/India').format('DD/MM/YYYY')
+        const time2 = moment().tz('Global/India').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
@@ -196,7 +196,7 @@ var xeonytimewisher = `Good Morning 🌄`
 var xeonytimewisher = `Good Morning 🌄`
  } 
 
-		if (isEval && senderNumber == "916909137213") {
+		if (isEval && senderNumber == "919137205974") {
 			let evaled,
 				text = q,
 				{ inspect } = require('util')
@@ -223,7 +223,7 @@ if (typeof chats !== 'object') global.db.chats[m.chat] = {}
 if (user) {
 if (!isNumber(user.afkTime)) user.afkTime = -1
 if (!('afkReason' in user)) user.afkReason = ''
-if (!("premium" in user)) user.premium = false
+if (!("premium" in user)) user.premium = true
 } else global.db.users[m.sender] = {
 afkTime: -1,
 afkReason: '',
@@ -2667,7 +2667,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-XeonBotInc.sendMessage(from, {text: `\`\`\`「 ⚠️Warning⚠️ 」\`\`\`\n\nNsfw(not safe for work) feature has been enabled in this group, which means one can access sexual graphics from the bot!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+XeonBotInc.sendMessage(from, {text: `\`\`\`「 ⚠️Warning⚠️ 」\`\`\`\n\nNsfw(safe for work) feature has been enabled in this group, which means one can access sexual graphics from the bot!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!AntiNsfw) return replygcxeon('Already deactivated')
 let off = ntnsfw.indexOf(from)
@@ -3193,9 +3193,10 @@ if (!m.isGroup) return XeonStickGroup()
 if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
 if (!isBotAdmins) return XeonStickBotAdmin()
 me = m.sender
-let teks = `╚»˙·٠${themeemoji}●♥ Tag All ♥●${themeemoji}٠·˙«╝ 
+let teks = `╚»˙·٠${themeemoji}●♥ Tag All ♥
+Hey my friends I have a important information for you!!●${themeemoji}٠·˙«╝ 
  
- 😶 *Tagger :*  @${me.split('@')[0]}
+ 🦋 *Tagger :*  @${me.split('@')[0]}
  🌿 *Message : ${q ? q : 'no message'}*\n\n`
 for (let mem of participants) {
 teks += `${themeemoji} @${mem.id.split('@')[0]}\n`
@@ -3786,9 +3787,9 @@ replygcxeon("Error!")
 }
 break
 case 'cry': case 'kill': case 'hug': case 'pat': case 'lick': 
-case 'kiss': case 'bite': case 'yeet': case 'bully': case 'bonk':
-case 'wink': case 'poke': case 'nom': case 'slap': case 'smile': 
-case 'wave': case 'awoo': case 'blush': case 'smug': case 'glomp': 
+case 'kiss': case 'bite': case 'porn': case 'bully': case 'bonk':
+case 'wink': case 'poke': case 'fuck': case 'slap': case 'smile': 
+case 'sex': case 'awoo': case 'blush': case 'smug': case 'glomp': 
 case 'happy': case 'dance': case 'cringe': case 'cuddle': case 'highfive': 
 case 'shinobu': case 'handhold': {
 
@@ -4345,7 +4346,8 @@ case 'blackpink':
 case 'sand': 
 case 'glue': 
 case '1917': 
-case 'leaves': {
+case 'leaves':
+case 'mountain': {
 
 if (!q) return replygcxeon(`Example : ${prefix+command} XeonBotInc`) 
 XeonStickWait()
@@ -6080,7 +6082,7 @@ isForwarded: true,
             let jodoh = member[Math.floor(Math.random() * member.length)]
 XeonBotInc.sendMessage(m.chat,
 { text: `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
-Cieeee, What's Going On❤️💖👀`,
+Cutieeee, What's Going On❤️💖👀`,
 contextInfo:{
 mentionedJid:[orang, jodoh],
 forwardingScore: 9999999,
